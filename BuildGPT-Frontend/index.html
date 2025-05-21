@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BuildGPT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>BuildGPT</h1>
+      <p class="subtitle">Your Ai-Companian!</p>
+    </header>
+
+    <div class="welcome">
+      <h2>Welcome to BuildGPT!</h2>
+      <p>I can help you build something or upload an image!</p>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="What would you like to Build Today?" />
+      <button id="sendBtn">➤</button>
+    </div>
+
+    <div class="upload-area">
+      <label for="uploadImage" class="upload-btn">➕ Upload an image</label>
+      <input type="file" id="uploadImage" style="display: none" />
+    </div>
+
+    <div class="chat-box" id="chatBox">
+      <!-- Messages will appear here -->
+    </div>
+
+    <div class="featured">
+      <h2>Featured Build Guides</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2023/06/Wood-modern-bed-design-scaled.jpg" alt="Bed" />
+          <h3>Bed</h3>
+          <p>Step-by-step instructions for making a bed</p>
+          <button class="card-btn">View Instructions</button>
+        </div>
+        <div class="card">
+          <img src="https://th.bing.com/th/id/OIP.OAIA8ZGpsX_iq5k3qPQUIAHaHR?rs=1&pid=ImgDetMain" alt="Chair" />
+          <h3>Chair</h3>
+          <p>Learn to build a sturdy wooden chair</p>
+          <button class="card-btn">View Instructions</button>
+        </div>
+        <div class="card">
+          <img src="https://i.etsystatic.com/17485513/r/il/3c7cf7/3007594220/il_1588xN.3007594220_luio.jpg" alt="Table" />
+          <h3>Table</h3>
+          <p>Build your own simple wooden table!</p>
+          <button class="card-btn">View Instructions</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
